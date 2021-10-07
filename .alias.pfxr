@@ -1,0 +1,10 @@
+
+alias l="ls -ltar"
+alias vi="vim"
+alias scsh="source ~/.bashrc.pfxr"
+alias csh="vi ~/.bashrc.pfxr"
+alias ..="cd .."
+alias agg="ag"
+alias cmsis="java -jar /home/prodrig/Documents/nordic/nRF5_SDK_15.2.0/external_tools/cmsisconfig/CMSIS_Configuration_Wizard.jar"
+alias softdevice="~/Documents/git/alfalevantado/scripts/loadSoftDevice.sh"
+alias cdg="cd ~/Documents/git/"
