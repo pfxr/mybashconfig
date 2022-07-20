@@ -2,12 +2,11 @@ parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 #Prompt
-#export PS1="\\$\u@\[\e[32m\]\w\[\e[m\]\n\t# "
-export PS1="\\$\u@\[\e[32m\]\w\[\e[m\]\n\t \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
+export PS1="\\$\u@\[\e[32m\]\w\[\e[m\]\[\e[91m\] \$(parse_git_branch)\[\e[00m\]\n\t $ "
 
 #Adding segger to path
 PATH=$PATH:/usr/share/segger_embedded_studio_for_arm_4.42/bin
-
+PATH=~/Documents/nordic/gn:"$PATH"
 #Pedro's alias
 source ~/.alias.pfxr
 
