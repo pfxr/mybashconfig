@@ -9,6 +9,3 @@ PATH=$PATH:/usr/share/segger_embedded_studio_for_arm_4.42/bin
 PATH=~/Documents/nordic/gn:"$PATH"
 #Pedro's alias
 source ~/.alias.pfxr
-
-#
-source ~/.google_aliases
