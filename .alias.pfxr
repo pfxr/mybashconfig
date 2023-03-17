@@ -9,3 +9,6 @@ alias cmsis="java -jar /home/prodrig/Documents/nordic/nRF5_SDK_15.2.0/external_t
 alias softdevice="~/Documents/git/alfalevantado/scripts/loadSoftDevice.sh"
 alias cdg="cd ~/Documents/git/"
 alias avenv="source .venv/bin/activate"
+alias python="python3"
+alias dfu_gen="nrfutil pkg generate --hw-version 52 --sd-req=0x00 --application-version 1 dfu.zip --application"
+alias dfu_usb="nrfutil dfu usb-serial -p /dev/ttyACM0 -pkg"
